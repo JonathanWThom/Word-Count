@@ -8,6 +8,7 @@ describe('The word count path', {:type => :feature}) do
     visit('/')
     fill_in('target', :with => 'dog')
     fill_in('phrase', :with => 'I love my dog')
+    fill_in('option', :with => 'full')
     click_button('Count')
     expect(page).to have_content('1')
   end
