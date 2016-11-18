@@ -11,11 +11,15 @@ describe('String#word_count') do
     expect('cat'.word_count('I\'m taking my cat on a walk through the catacombs.', 'partial')).to(eq(2))
   end
 
-  it('User can enter either field in upper or lower case, or a mix') do
+  it('User can enter either field in upper or lowercase, or a mix') do
     expect('peCk'.word_count('If Peter Piper picked a Peck of pickled peppers, where\'s the pecK of pickled peppers Peter Piper picked?', 'full')).to(eq(2))
   end
 
   it('User can enter multiple sentences for full word option') do
     expect('dog'.word_count('I love my dog. Doggy dog dog.', 'full')).to(eq(3))
+  end
+
+  it('For partial option, user can enter a string that includes words that include the target word more than once') do
+    expect('hello'.word_count('helloworldhello.', 'partial')).to(eq(2))
   end
 end

@@ -10,11 +10,7 @@ class String
         end
       end
     elsif option == 'partial'
-      words.each() do |word|
-        if word.include?(self.downcase)
-          counter += 1
-        end
-      end
+      counter = string.downcase.scan(/(?=#{self.downcase})/).count
     end
     counter
   end
