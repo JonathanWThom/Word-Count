@@ -46,7 +46,7 @@ _User inputs a target word and a phrase to search through. They can choose to re
   * Input example:
     <b>Target word:</b> "Hello"
     <b>String:</b> "helloworldhello"
-    <b>Option:</b> "partial"
+    <b>Option:</b> "Partial"
   * Output: 2
 
 ## Support and contact details
