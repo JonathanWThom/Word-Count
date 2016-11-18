@@ -16,3 +16,6 @@ Input example:
   Target word - "CaT"
   String - "I'm taking my cAt on a walk through the cATAcombs"
 Output: 2
+
+
+ADD SPECS
