@@ -1,4 +1,4 @@
-body {
+#main {
   text-align: center;
   margin-top: 10%;
 }
@@ -8,11 +8,32 @@ h1 {
   font-family: 'Merriweather', serif;
 }
 
-.btn {
+.count {
   background-color: #E6E6E6;
-  *font-weight: bold;
+  font-weight: bold;
 }
 
+#nav {
+  text-align: right;
+  margin-top: 10px;
+}
+
+#nav .btn {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.dead_links {
+  padding-right: 15px;
+  color: gray;
+  font-weight: bold;
+}
+
+img {
+  width: 55px;
+  padding-right: 15px;
+}
 
 label {
   padding-left: 10px;
