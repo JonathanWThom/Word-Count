@@ -1,6 +1,6 @@
 # _Word Count_
 
-#### _Web application will count the number of times a target word appears in a phrase. 11.18.16_
+#### _Web application that will count the number of times a target word appears in a phrase. 11.18.16_
 
 #### By _**Jonathan Thom**_
 
