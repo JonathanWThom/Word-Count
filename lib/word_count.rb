@@ -2,13 +2,14 @@ class String
   define_method(:word_count) do |string, option|
     counter = 0
     words = string.downcase.split(" ")
-    if option == "full"
+    if option == 'full'
       words.each() do |word|
+        word.gsub!(/[^0-9A-Za-z]/, '')
         if word == self.downcase
           counter += 1
         end
       end
-    elsif option == "partial"
+    elsif option == 'partial'
       words.each() do |word|
         if word.include?(self.downcase)
           counter += 1
@@ -18,16 +19,3 @@ class String
     counter
   end
 end
-
-# class String
-#   define_method(:word_count_advanced) do |string|
-#     counter = 0
-#     words = string.downcase.split(" ")
-#     words.each() do |word|
-#       if word.include?(self.downcase)
-#         counter += 1
-#       end
-#     end
-#     counter
-#   end
-# end

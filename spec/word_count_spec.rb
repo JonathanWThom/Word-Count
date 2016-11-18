@@ -14,14 +14,8 @@ describe('String#word_count') do
   it('User can enter either field in upper or lower case, or a mix') do
     expect('peCk'.word_count('If Peter Piper picked a Peck of pickled peppers, where\'s the pecK of pickled peppers Peter Piper picked?', 'full')).to(eq(2))
   end
-end
 
-# describe('String#word_count_advanced') do
-#   it('User can input a target word and a string, and will be returned how many times the target word appears in the string as a full word OR part of a word.') do
-#     expect('cat'.word_count_advanced('I\'m taking my cat on a walk through the catacombs.')).to(eq(2))
-#   end
-#
-#   it('User can input a target word or string in either upper or lowercase (or a mix) and and will be returned how many times the target word appears in the string as a full word OR part of a word') do
-#     expect('cAT'.word_count_advanced('I\'m taking my cAt on a walk through the cATAcombs')).to(eq(2))
-#   end
-# end
+  it('User can enter multiple sentences for full word option') do
+    expect('dog'.word_count('I love my dog. Doggy dog dog.', 'full')).to(eq(3))
+  end
+end
