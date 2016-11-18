@@ -10,7 +10,7 @@ _User inputs a target word and a phrase to search through. They can choose to re
 
 ## Setup/Installation Requirements
 
-* _View here:
+* _View here: https://immense-sea-69878.herokuapp.com/_
 * _Works in any modern web browser._
 
 ## Specifications
