@@ -62,6 +62,3 @@ _Written in Ruby, with the help from HTML, CSS, and Sinatra_
 *MIT*
 
 Copyright (c) 2016 **_Jonathan Thom_**
-
-
-ADD SPECS
