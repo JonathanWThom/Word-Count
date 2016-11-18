@@ -1,5 +1,5 @@
-<h1>Word Count</h1>
-<h2>Enter a phrase and a target word, then click submit to see how many times the target word appears in the phrase</h2>
+<h1><span class="blue">W</span><span class="red">o</span><span class="yellow">r</span><span class="blue">d</span> <span class="green">C</span><span class="red">o</span><span class="yellow">u</span><span class="blue">n</span><span class="red">t</span></h1>
+<p>Enter a phrase and a target word, then click "Count!" to see how many times the target word appears in the phrase.</p>
 <form action="/word_count">
   <div class="form-group">
     <input id="phrase" name="phrase" class="form-control" placeholder="Phrase">
@@ -7,17 +7,15 @@
   <div class="form-group">
     <input id="target" name="target" class="form-control" placeholder="Target Word">
   </div>
-  <div class="radio">
+  <div>
     <label>
       <input type="radio" name="option" value="full" checked>
-      Recognize matches only as full words
+      Only recognize matches on full words
     </label>
-  </div>
-  <div class="radio">
     <label>
       <input type="radio" name="option" value="partial">
       Recognize matches in parts of words
     </label>
   </div>
-  <button type="submit" class="btn btn-success">Count!</button>
+  <button type="submit" class="btn">Count!</button>
 </form>

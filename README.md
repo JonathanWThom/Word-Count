@@ -27,5 +27,12 @@ Input example:
   Option - "Full"
 Output: 2
 
+5. For partial option, user can input words that include the target word twice and be returned the correct number of matches.
+Input example:
+  Target word - "Hello"
+  String - "helloworldhello"
+  Option - "partial"
+Output: 2
+
 
 ADD SPECS

@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 75px;
+  font-family: 'Merriweather', serif;
+}
+
+.btn {
+  background-color: #E6E6E6;
+  *font-weight: bold;
+}
+
+
+label {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-group {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.red {
+  color: red
+}
+
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.green {
+  color: green;
+}
